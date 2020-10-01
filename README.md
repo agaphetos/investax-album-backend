@@ -21,12 +21,16 @@ APIs and Data Models used for building this Application was followed.
 $ npm install
 ```
 
-2. Seed Data to Database
+2. Initialize `.env` file. See `.env.example` for sample.
+
+`Note: You must point the database properties to your local mongo db instance.`
+
+3. Seed Data to Database
 ```sh
 $ npm run database:seed
 ```
 
-3. Run the Application
+4. Run the Application
 ```sh
 $ npm run dev
 ```
